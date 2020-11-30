@@ -44,11 +44,31 @@ body{
 }
 
 
+
 .botonmenu:hover{
     border: 1px solid #F0B429;
     border-radius: 4px;
     
 }
+
+.stylebotonsecundary{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    background-color: #F0B429;
+    border-radius: 4px;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0.3em 0.3em 1em rgba(0,0,0,0.3);  
+}
+
+.stylebotonsecundary:hover{
+    border: 1px solid #005883;
+    border-radius: 4px;
+    
+}
+
 
 .titulopagina{
     display: grid;
